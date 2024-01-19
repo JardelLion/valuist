@@ -1,0 +1,41 @@
+.carousel {
+  width: 40%;
+  height: 200px;
+  border-radius: 5px;
+  background-color: rgba(230, 226, 226, 0.36);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: rgb(172, 171, 171);
+  border-radius: 8px 0 8px 0;
+}
+
+.carousel-control-prev-icon {
+  margin-left: -80px;
+}
+
+.carousel-control-next-icon {
+  margin-right: -82px;
+}
+
+@media (max-width: 994px) {
+  .d-flex {
+    flex-direction: column;
+  }
+  .div {
+    margin-bottom: 60px;
+  }
+  .carousel {
+    width: 68%;
+  }
+}
+.carousel {
+  border: 1px solid rgb(233, 230, 230);
+  box-shadow: 1px 3px 4px rgba(217, 217, 217, 0.9);
+}
+
+.carousel-indicators {
+  background-color: rgba(191, 0, 11, 0.37);
+  bottom: -54px;
+}/*# sourceMappingURL=modal_slide.css.map */

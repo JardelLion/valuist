@@ -1,0 +1,105 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-inter);
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+:root {
+  --red-69: #BF000B;
+  --gray-27: #000000;
+  --yellow: rgba(246, 223, 18, 0.69);
+}
+
+:root {
+  --font-inter: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.main-title {
+  width: 98%;
+  height: 160px;
+}
+.main-title h1 {
+  line-height: 140px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+body {
+  width: 70%;
+  max-width: 48.0625rem;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+.red-69 {
+  background-color: var(--red-69);
+  opacity: 69%;
+}
+
+.gray-27 {
+  background-color: var(--gray-27);
+  opacity: 27%;
+}
+
+textarea {
+  border: 1px solid rgb(233, 230, 230);
+  box-shadow: 1px 3px 4px rgba(217, 217, 217, 0.9);
+}
+
+textarea {
+  display: block;
+  background-color: rgba(230, 226, 226, 0.36);
+  padding-bottom: 10px;
+  text-indent: 10px;
+  border-radius: 5px;
+}
+
+.redBorder {
+  box-sizing: border-box;
+  border: 1px solid rgba(191, 0, 11, 0.81);
+  border-bottom: 1px solid rgba(191, 0, 11, 0.81);
+  border-left: 2px solid rgba(191, 0, 11, 0.81);
+  border-radius: 5px;
+}
+
+.clicked {
+  background-color: rgba(246, 223, 18, 0.69);
+  color: rgb(253, 0, 0);
+}
+
+.clicked:focus,
+.clicked:focus-visible {
+  color: rgb(253, 0, 0);
+}/*# sourceMappingURL=style.css.map */

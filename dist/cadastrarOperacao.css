@@ -1,0 +1,52 @@
+.btn {
+  border: none;
+}
+
+.btn:first-child:hover,
+.btn:first-child:active,
+.btn:first-child:focus-visible,
+.btn:first-child:focus {
+  background-color: var(--red-69);
+}
+
+.label-data {
+  top: -15px;
+  font-size: 11px;
+  color: rgb(151, 149, 149);
+}
+
+.form-control,
+.form-select {
+  background-color: #f3f3f7;
+  box-shadow: 0 3px 5px gray;
+}
+
+.col-sm:first-child {
+  margin-right: 20px;
+}
+
+.input-group::after {
+  content: " ";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--red-69);
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.col-sm__break {
+  width: 100%;
+  max-width: 170px;
+  margin-right: 5px;
+}
+
+.col-sm__break select {
+  text-align: center;
+}
+
+.after-none::after {
+  content: " ";
+  display: none;
+}/*# sourceMappingURL=cadastrarOperacao.css.map */

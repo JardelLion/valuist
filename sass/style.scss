@@ -1,0 +1,73 @@
+@forward "global/index";
+@forward "components/index";
+
+@use "util/"as *;
+
+
+//the body tag
+body {
+    width:70%;
+    max-width: rem(769); //769
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+main {
+    margin-bottom: 40px;
+}
+
+
+.red-69 {
+    background-color: var(--red-69);
+    opacity: 69%;
+}
+
+
+
+.gray-27 {
+    background-color: var(--gray-27);
+    opacity: 27%;
+}
+
+
+
+
+
+
+textarea {
+    border: 1px solid rgb(233, 230, 230);
+    box-shadow: 1px 3px 4px rgba(217, 217, 217, .90);
+}
+
+
+textarea {
+    display: block;
+    background-color: rgba(230, 226, 226, 0.36);
+    padding-bottom: 10px;
+    text-indent: 10px;
+    border-radius: 5px;
+  
+
+}
+
+
+.redBorder {
+    box-sizing: border-box;
+    border: 1px solid rgba(191, 0, 11, 0.81);
+    border-bottom: 1px solid rgba(191, 0, 11, 0.81);
+    border-left: 2px solid rgba(191, 0, 11, 0.81);
+    border-radius: 5px;
+}
+
+
+.clicked {
+    background-color: rgba(246, 223, 18, 0.69);
+    color: rgba(253, 0, 0, 1);
+}
+.clicked:focus,
+.clicked:focus-visible {
+    color: rgba(253, 0, 0, 1);
+}

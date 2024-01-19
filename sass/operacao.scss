@@ -1,0 +1,177 @@
+@use "./util/" as *;
+
+.btn {
+    border: none;
+   
+
+}
+
+.operacao__nome-div {
+   
+    margin-bottom: 17px;
+  
+}
+
+
+.operacao__nome-btn {
+    width: 96%;
+    height: 30px;
+    line-height: 20px;
+    border:1px solid rgba(191, 0, 11, 0.69);
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(191, 0, 11, 0.69);
+    font-size: rem(16);
+    font-weight: 800;
+
+    &:hover,
+    &:focus-visible,
+    &:active,
+    &:focus {
+        color: #fff;
+    }
+   
+    
+}
+
+
+
+
+.label-data {
+    top: -15px;
+    font-size: 11px;
+    color: rgb(151, 149, 149);
+}
+
+.form-control,
+.form-select {
+    background-color: #f3f3f7;
+    box-shadow: 0 3px 5px gray;
+   
+}
+
+
+.col-sm:first-child {
+    margin-right:20px;
+}
+
+
+.input-group::after {
+    content: " ";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--red-69);
+    margin-top: 12px;
+    margin-left: 5px;
+    position: absolute;
+    right: -13px;
+}
+
+.col-sm__break {
+    width: 100%;
+    margin-right: 5px;
+    
+}
+
+.col-sm__break select {
+    text-align: center;
+
+}
+.after-none::after {
+    content: " ";
+    display: none;
+}
+
+.after-hidden::after {
+    display: block;
+    content: "";
+    visibility: hidden;
+}
+
+.input-group p {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.input-group div {
+    height: 56px;
+}
+
+.input-group .second-div {
+    margin-top:12px
+}
+
+.flex-button {
+    justify-content: space-between;
+
+}
+
+.alterar,
+.notificar,
+.apagar {
+    width: 30%;
+}
+
+
+.submit-btn {
+    & button {
+        width: 100%;
+        margin-top:20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+}
+
+.red-border_none {
+    border: none;
+    border-color: transparent;
+}
+
+.clicked {
+    background-color: rgba(246, 223, 18, 0.69);
+    color: rgba(253, 0, 0, 1);
+}
+.clicked:focus,
+.clicked:focus-visible {
+    color: rgba(253, 0, 0, 1);
+}
+
+.operacao-titular {
+    border:none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 1.3rem;
+    text-align: center
+}
+
+.line {
+    border-bottom: 4px solid #BF000B;
+    display: block;
+    width: 130%
+}
+
+.label {
+    font-size: .7rem;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+
+@media (max-width: 575px){
+    .x {
+        overflow:hidden;
+    }
+}
+
+.fazer-pagamentos button {
+    height: 40px;
+}

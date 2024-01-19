@@ -1,0 +1,10 @@
+.main-title {
+    width: 98%;
+    height: 160px;
+    
+    & h1 {
+        line-height: 140px;
+        color: #fff;
+        font-weight: bolder;
+    }
+}
